@@ -1,0 +1,63 @@
+/* debug */
+
+.debug .hero .custom-container{
+    background-color: gold;
+    height: 100%;
+    text-align: center;
+}
+
+.hero{
+    height: 500px;
+}
+
+.debug .portfolio .box{
+    background-color: greenyellow;
+    border: 1px solid blue;
+    height: 200px;
+}
+
+/* container */
+.custom-container{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Header */
+header{
+    height: 90px;
+    background-color: #2c3e50;
+}
+
+.header-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Hero */
+.hero{
+    background-color: aqua;
+}
+
+
+
+/* About */
+.about{
+    background-color: aqua;
+}
+
+/* Contact */
+.contact-me{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+.footer-top{
+    background-color: violet;
+}
+
+.footer-bottom{
+    text-align: center;
+    background-color: violet;
+}
