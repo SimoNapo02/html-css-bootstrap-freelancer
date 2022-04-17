@@ -4,163 +4,192 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Freelancer</title>
 </head>
-<body class="debug">
-    <header>
+<body> 
+    <!--NAV-->
+    <header class="text-white fw-bold">
         <div class="container">
-            <div class="header-row">
-                <div class="header-left">
-                    Lorem
+            <div class="row text-uppercase align-items-center">
+                <div class="col-6">
+                    <h4>Start Bootstrap</h4>
                 </div>
-                <div class="header-right">
-                    <nav>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
+                <div class="col-6 text-end">
+                    <div class="header-button d-inline-block d-md-none">
+                        <button type="button " class="btn btn-outline-light"><i class="bi bi-list"></i></button>
+                    </div>
+                    <nav class="header-nav d-none d-md-block">
+                        <ul>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
                     </nav>
                 </div>
             </div>    
         </div>
     </header>
-
+ <!-- MAIN -->
     <main>
         <!-- Hero -->
-        <section class="hero">
-            <div class="custom-container">
-                <div class="container-fluid text-center">
-                    <h1>Lorem</h1>
+        <section class="hero text-white text-uppercase py-5">
+            <div class="container">
+                <div class="text-center">
+                    <img class="hero-img pb-3" src="img/avatar.svg" alt="Avatar img"> 
+                    <h1 class="display-4 fw-bold">Start bootstrap</h1>
+                    <div class="rowstar mb-2">
+                        <div class="row-rowstar"></div>
+                        <div class="star-rowstar"><i class="bi bi-star-fill"></i></div>
+                        <div class="row-rowstar"></div>
+                    </div>
+                    <h5>Grafic artist - web designer - illustrator</h5>
                 </div>
             </div>
         </section>
         <!-- Portfolio -->
-        <section class="portfolio">
-            <div class="container text-center">
-                <h2>Lorem</h2>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
-                        <div class="box"></div>
+        <section id="portfolio" class="py-5">
+            <div class="container text-center text-uppercase">
+                <h2 class="fw-bold">Portfolio</h2>
+                <div class="rowstar mb-2">
+                    <div class="row-rowstar row-rowstar-bg_black"></div>
+                    <div class="star-rowstar"><i class="bi bi-star-fill"></i></div>
+                    <div class="row-rowstar row-rowstar-bg_black"></div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box-portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus plus"></i></div>
+                            <img class="img-fluid" src="img/cabin.png" alt="portfolio img">
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
-                        <div class="box"></div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box-portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus plus"></i></div>
+                            <img class="img-fluid" src="img/cake.png" alt="portfolio img">
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
-                        <div class="box"></div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box-portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus plus"></i></div>
+                            <img class="img-fluid" src="img/circus.png" alt="portfolio img">
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
-                        <div class="box"></div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box-portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus plus"></i></div>
+                            <img class="img-fluid" src="img/game.png" alt="portfolio img">
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
-                        <div class="box"></div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box-portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus plus"></i></div>
+                            <img class="img-fluid" src="img/safe.png" alt="portfolio img">
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
-                        <div class="box"></div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box-portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus plus"></i></div>
+                            <img class="img-fluid" src="img/submarine.png" alt="portfolio img">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- About -->
-        <section class="about">
-            <div class="container text-center">
-                <h2>About</h2>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <p> Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. 
-                            Quaerat molestiae deserunt, 
-                            unde quia animi tenetur.
-                            Dolores quae iure odit, voluptatem
-                            nesciunt dicta maiores. Tempore
-                            ipsum vero aut quisquam nisi doloribus.
-                            Tempore ipsum vero aut quisquam nisi doloribus.</p>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <p>Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. 
-                            Quaerat molestiae deserunt, 
-                            unde quia animi tenetur.
-                            Dolores quae iure odit, voluptatem
-                            nesciunt dicta maiores. Tempore
-                            ipsum vero aut quisquam nisi doloribus.
-                            Tempore
-                            ipsum vero aut quisquam nisi doloribus.</p>
-                    </div>
-                    <div><button>Download</button></div>
-                </div>
-            </div>
-        </section>
-        
+        <section id="about" class="about py-5 text-white">
             <div class="custom-container">
                 <div class="container-fluid">
-                    <h2>Contact me</h2>
-                    <div class="contact-me">
-                        Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. 
-                            Quaerat molestiae deserunt, 
-                            unde quia animi tenetur.
-                            Dolores quae iure odit, voluptatem
-                            nesciunt dicta maiores. Tempore
-                            ipsum vero aut quisquam nisi doloribus.
-                            Tempore
-                            ipsum vero aut quisquam nisi doloribus.
+                    <h2 class="fw-bold text-uppercase text-center">About</h2>
+                    <div class="rowstar mb-2">
+                        <div class="row-rowstar"></div>
+                        <div class="star-rowstar"><i class="bi bi-star-fill"></i></div>
+                        <div class="row-rowstar"></div>
                     </div>
-                    <button>Send</button>
+                    <div class="row pb-2">
+                        <div class="col-12 col-md-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae deserunt, unde quia animi tenetur. Dolores quae iure odit, voluptatem nesciunt dicta maiores. Tempore ipsum vero aut quisquam nisi doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sapiente nostrum corrupti! Veniam placeat autem et suscipit error animi enim, quaerat ut nesciunt amet ea quos tempore reiciendis illum veritatis.</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugiat omnis cumque, natus magnam doloribus dolorem, eius quod molestiae facere voluptatem quos itaque fuga quis, fugit enim vitae amet. Quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veniam neque omnis ex impedit ipsum sapiente explicabo quae atque nam! Voluptatibus incidunt molestias iusto laudantium nobis quia eaque nam laborum.</p>
+                        </div>
+                    </div>
+                    <div class="text-center"><button type="button" class="btn btn-outline-light"><i class="bi bi-download"></i> Download</button></div>
                 </div>    
             </div>
-        
+        </section>
+        <!-- Contatta -->
+        <section id="contact" class="py-5">
+            <div class="custom-container">
+                <div class="container-fluid">
+                    <h2 class="fw-bold text-uppercase text-center">Contact me</h2>
+                    <div class="rowstar mb-2">
+                        <div class="row-rowstar row-rowstar-bg_black"></div>
+                        <div class="star-rowstar"><i class="bi bi-star-fill"></i></div>
+                        <div class="row-rowstar row-rowstar-bg_black"></div>
+                    </div>
+                   <form>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="form-name" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="form-email" aria-describedby="emailHelp" placeholder="Email Address">
+                        </div>
+                        <div class="mb-3">
+                          <input type="tel" class="form-control" id="form-tel" placeholder="Phone Number">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="form-texarea" rows="3" placeholder="Message"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-success">Send</button>
+                      </form>
+                   </form>
+                </div>    
+            </div>
+        </section>
     </main>
     <!-- Footer -->
-    <footer>
-        <!-- Footer top -->
-        <section class="footer-top">
+    <footer class="text-white text-center">
+        <section class="footer-top py-5">
             <div class="container">
-                <div class="row">
+                <div class="row g-5">
                     <div class="col-12 col-md-4">
                         <div>
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. 
-                            Quaerat molestiae deserunt, 
-                            unde quia animi tenetur.
-                            Dolores quae iure odit, voluptatem
-                            nesciunt dicta maiores. Tempore
-                            ipsum vero aut quisquam nisi doloribus.
-                            Tempore
-                            ipsum vero aut quisquam nisi doloribus.                        </div>
+                            <h5 class="text-uppercase">Location</h5>
+                            <address>2215 John Daniel Drive Clark, MO 54243</address>
+                        </div>
                     </div>
                     <div class="col-12 col-md-4">
                         <div>
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. 
-                            Quaerat molestiae deserunt, 
-                            unde quia animi tenetur.
-                            Dolores quae iure odit, voluptatem
-                            nesciunt dicta maiores. Tempore
-                            ipsum vero aut quisquam nisi doloribus.
-                            Tempore
-                            ipsum vero aut quisquam nisi doloribus.                        </div>
+                            <h5 class="text-uppercase">Around the web</h5>
+                           <ul class="social-links">
+                               <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                               <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                               <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                               <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                           </ul>
+                        </div>
                     </div>
                     <div class="col-12 col-md-4">
                         <div>
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. 
-                            Quaerat molestiae deserunt, 
-                            unde quia animi tenetur.
-                            Dolores quae iure odit, voluptatem
-                            nesciunt dicta maiores. Tempore
-                            ipsum vero aut quisquam nisi doloribus.
-                            Tempore
-                            ipsum vero aut quisquam nisi doloribus.                        </div>
+                            <h5 class="text-uppercase">About Freelancer</h5>
+                            <p>Freelance is a free to use, open source Bootstrap theme created by <a class="link-success text-decoration-none" href="#">Start Bootstrap</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Footer bottom -->
-        <section class="footer-bottom">
-            Lorem ipsum dolor
+        </section>>
+        <section class="footer-bottom py-5">
+            <span>Copyright © Your Website 2019</span>
         </section>
     </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
